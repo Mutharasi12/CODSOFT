@@ -1,0 +1,38 @@
+import re
+
+def healthcare_bot():
+    print("Hello! I’m MedBot. I can help you with basic health-related questions.\n(Type 'exit' to end the chat)\n")
+
+    while True:
+        user_input = input("You: ").lower()
+
+        if user_input in ["exit", "quit", "bye"]:
+            print("MedBot: Take care! Wishing you good health.")
+            break
+
+        elif re.search(r"(headache|migraine|head pain)", user_input):
+            print("MedBot: For headaches, ensure you're hydrated and get enough rest. If it persists, consider seeing a doctor.")
+
+        elif re.search(r"(fever|temperature|high temperature)", user_input):
+            print("MedBot: A mild fever can be managed with rest and fluids. Monitor regularly. For high or prolonged fever, consult a physician.")
+
+        elif re.search(r"(cold|cough|sneeze)", user_input):
+            print("MedBot: It sounds like a common cold. Try warm fluids, rest, and OTC meds. If symptoms worsen, see a doctor.")
+
+        elif re.search(r"(appointment|book|schedule)", user_input):
+            print("MedBot: You can book an appointment by calling 1800-HEALTH or visiting our website.")
+
+        elif re.search(r"(diet|nutrition|food)", user_input):
+            print("MedBot: A balanced diet includes fruits, vegetables, proteins, and whole grains. Stay hydrated and avoid processed foods.")
+
+        elif re.search(r"(exercise|workout|fitness)", user_input):
+            print("MedBot: Regular exercise like walking, yoga, or cardio improves overall health. Aim for at least 30 minutes daily.")
+
+        elif re.search(r"(covid|corona|vaccination)", user_input):
+            print("MedBot: COVID-19 vaccines are available at local clinics. Continue wearing masks and maintaining hygiene.")
+
+        else:
+            print("MedBot: I'm sorry, I don't have information on that. Please contact a healthcare professional for further assistance.")
+
+
+healthcare_bot()
