@@ -1,0 +1,17 @@
+Hello! I’m MedBot. I can help you with basic health-related questions.
+(Type 'exit' to end the chat)
+
+You: headache
+MedBot: For headaches, ensure you're hydrated and get enough rest. If it persists, consider seeing a doctor.
+You: cold
+MedBot: It sounds like a common cold. Try warm fluids, rest, and OTC meds. If symptoms worsen, see a doctor.
+You: appontment
+MedBot: I'm sorry, I don't have information on that. Please contact a healthcare professional for further assistance.
+You: book
+MedBot: You can book an appointment by calling 1800-HEALTH or visiting our website.
+You: diet
+MedBot: A balanced diet includes fruits, vegetables, proteins, and whole grains. Stay hydrated and avoid processed foods.
+You: corona
+MedBot: COVID-19 vaccines are available at local clinics. Continue wearing masks and maintaining hygiene.
+You: exit
+MedBot: Take care! Wishing you good health.
